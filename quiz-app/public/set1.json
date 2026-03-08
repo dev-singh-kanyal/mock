@@ -1,0 +1,841 @@
+[
+  {
+    "id": 1,
+    "question": "A patient is admitted with acute systolic heart failure AND hypertension. Per ICD-10-CM guidelines, the correct principal diagnosis is:",
+    "options": [
+      "I10 – Essential hypertension",
+      "I50.21 – Acute systolic heart failure",
+      "I11.0 – Hypertensive heart disease with heart failure",
+      "I13.10 – Hypertensive heart and CKD"
+    ],
+    "answer": 2,
+    "explanation": "When hypertension and heart failure coexist, a causal relationship is ASSUMED per ICD-10-CM Ch.9 guideline. Code I11.0 = hypertensive heart disease with HF. Add I50.21 as additional code for type of HF."
+  },
+  {
+    "id": 2,
+    "question": "Type 2 diabetes mellitus with diabetic peripheral angiopathy WITHOUT gangrene is coded as:",
+    "options": ["E11.51", "E11.52", "E11.59", "E11.65"],
+    "answer": 0,
+    "explanation": "E11.51 = Type 2 DM with diabetic peripheral angiopathy without gangrene. E11.52 = with gangrene. The 5th/6th character specificity must be captured for all diabetic complications."
+  },
+  {
+    "id": 3,
+    "question": "ICD-10-CM 'Excludes1' note means:",
+    "options": [
+      "The excluded condition may also be coded together",
+      "The two conditions CANNOT occur together and should NEVER be coded simultaneously",
+      "The condition is included in this code",
+      "The excluded code is optional"
+    ],
+    "answer": 1,
+    "explanation": "Excludes1 = pure exclusion — the conditions cannot co-exist. NEVER code together. Excludes2 = 'not included here' but the conditions CAN co-exist and be coded together."
+  },
+  {
+    "id": 4,
+    "question": "A patient with confirmed HIV disease is admitted with Pneumocystis pneumonia. Correct code sequence:",
+    "options": ["B20, B59", "Z21, B59", "B20, J17", "Z21, J17"],
+    "answer": 0,
+    "explanation": "B20 = symptomatic HIV disease (AIDS-defining illness present). B59 = Pneumocystosis. Z21 is for ASYMPTOMATIC HIV only. B20 is sequenced first, then the manifestation (B59)."
+  },
+  {
+    "id": 5,
+    "question": "When both an acute AND chronic form of the same condition have separate codes, ICD-10-CM directs:",
+    "options": [
+      "Code only the acute condition",
+      "Code only the chronic condition",
+      "Code both — sequence the acute code FIRST",
+      "Code both — sequence the chronic code first"
+    ],
+    "answer": 2,
+    "explanation": "Per ICD-10-CM Guideline I.C.1: when separate codes exist for both acute and chronic conditions, code both, with the ACUTE form sequenced first."
+  },
+  {
+    "id": 6,
+    "question": "A patient with COPD is admitted with acute bronchitis. The correct code assignment is:",
+    "options": [
+      "J44.1 only",
+      "J44.0 + J20.9",
+      "J44.1 + J20.9",
+      "J44.9 + J20.9"
+    ],
+    "answer": 1,
+    "explanation": "J44.0 = COPD with acute lower respiratory infection. An additional code (J20.9 or specific bronchitis) identifies the type of infection. J44.0 captures the COPD exacerbation triggered by infection."
+  },
+  {
+    "id": 7,
+    "question": "For inpatient coding, when a physician documents 'probable sepsis,' the coder should:",
+    "options": [
+      "Code only signs and symptoms",
+      "Code sepsis as if confirmed",
+      "Query the physician",
+      "Leave the field blank"
+    ],
+    "answer": 1,
+    "explanation": "Guideline II.H: In the inpatient setting, uncertain diagnoses (probable, suspected, possible, likely) are coded AS IF CONFIRMED. This is the OPPOSITE of outpatient guidelines."
+  },
+  {
+    "id": 8,
+    "question": "Septic shock requires which code sequence?",
+    "options": [
+      "R65.21 only",
+      "A41.9 only",
+      "Underlying infection first (A41.x), then R65.21",
+      "R65.21 first, then A41.9"
+    ],
+    "answer": 2,
+    "explanation": "Per Guideline I.C.1.d: septic shock — the underlying infection is ALWAYS sequenced first, followed by R65.21 (severe sepsis with septic shock). R65.21 is never a principal diagnosis."
+  },
+  {
+    "id": 9,
+    "question": "A patient is admitted for chemotherapy for colon cancer. The PRINCIPAL diagnosis is:",
+    "options": [
+      "C18.9 – Colon cancer",
+      "Z51.11 – Encounter for antineoplastic chemotherapy",
+      "Z85.038 – Personal history of colon cancer",
+      "D12.9 – Benign colon neoplasm"
+    ],
+    "answer": 1,
+    "explanation": "When admitted solely for chemotherapy, Z51.11 = principal diagnosis. The malignancy (C18.9) is coded as an additional diagnosis per Guideline II.C."
+  },
+  {
+    "id": 10,
+    "question": "A patient with hypertension develops CKD Stage 3. ICD-10-CM coding requires:",
+    "options": [
+      "I10 + N18.3 (coded separately)",
+      "I12.9 + N18.3 (hypertensive CKD combo code)",
+      "N18.3 only",
+      "I10 only"
+    ],
+    "answer": 1,
+    "explanation": "Hypertension + CKD = ASSUMED related per ICD-10-CM. I12.9 = hypertensive CKD with stage 1–4 CKD. N18.3 provides stage specificity. I10 alone is incorrect."
+  },
+  {
+    "id": 11,
+    "question": "Pneumonia due to Streptococcus pneumoniae is coded as:",
+    "options": ["J18.9", "J15.3", "J13", "J15.9"],
+    "answer": 2,
+    "explanation": "J13 = Pneumonia due to Streptococcus pneumoniae. Organism-specific pneumonia codes take priority. J18.9 = unspecified organism pneumonia (only when organism unknown)."
+  },
+  {
+    "id": 12,
+    "question": "The ICD-10-CM placeholder character 'X' is used to:",
+    "options": [
+      "Indicate an unknown diagnosis",
+      "Complete a code requiring a 7th character when fewer than 6 characters exist",
+      "Replace unspecified characters in injury codes only",
+      "Flag codes for deletion"
+    ],
+    "answer": 1,
+    "explanation": "The placeholder 'X' fills empty character positions when a 7th character extension is required but the code has fewer than 6 characters. Without 'X,' the 7th character cannot be in the 7th position."
+  },
+  {
+    "id": 13,
+    "question": "Acute on chronic systolic heart failure is coded as:",
+    "options": ["I50.20", "I50.21", "I50.22", "I50.23"],
+    "answer": 3,
+    "explanation": "I50.23 = Acute on chronic systolic (congestive) heart failure. Pattern: .20=unspecified, .21=acute, .22=chronic, .23=acute on chronic. Know ALL four subcategories."
+  },
+  {
+    "id": 14,
+    "question": "STEMI of the anterior wall (initial episode of care) is coded as:",
+    "options": ["I21.01", "I21.09", "I21.02", "I22.0"],
+    "answer": 0,
+    "explanation": "I21.01 = ST elevation (STEMI) MI involving left anterior descending coronary artery. I22.x = subsequent MI (within 4 weeks of initial). I21.02 = other anterior wall STEMI."
+  },
+  {
+    "id": 15,
+    "question": "A subsequent STEMI occurring 3 weeks after the initial MI is coded as:",
+    "options": [
+      "I21.01 (same code repeated)",
+      "I22.0 – Subsequent STEMI of anterior wall",
+      "I25.2 – Old MI",
+      "I24.0"
+    ],
+    "answer": 1,
+    "explanation": "I22.x = Subsequent MI (occurring within 4 weeks of an initial MI). I22.0 = subsequent STEMI of anterior wall. I25.2 is used for OLD MI (healed, >4 weeks)."
+  },
+  {
+    "id": 16,
+    "question": "Which code is assigned for MRSA pneumonia?",
+    "options": ["J15.211", "J15.29", "J15.212", "B95.62 + J18.9"],
+    "answer": 0,
+    "explanation": "J15.211 = Pneumonia due to Methicillin-resistant Staphylococcus aureus. This combination code captures both the organism and site in one code — more specific than B95.62 + J18.9."
+  },
+  {
+    "id": 17,
+    "question": "A patient is admitted with Type 1 DM and DKA without coma:",
+    "options": ["E10.10", "E10.11", "E10.641", "E13.10"],
+    "answer": 0,
+    "explanation": "E10.10 = Type 1 DM with ketoacidosis without coma. E10.11 = with coma. Always verify Type 1 vs Type 2 — they are different code categories (E10 vs E11)."
+  },
+  {
+    "id": 18,
+    "question": "Opioid poisoning, accidental (unintentional) by heroin, initial encounter:",
+    "options": ["T40.1X1A", "T40.1X4A", "F11.10", "T40.0X1A"],
+    "answer": 0,
+    "explanation": "T40.1X1A = Poisoning by heroin, accidental (unintentional), initial encounter. 5th character: 1=accidental, 2=intentional self-harm, 3=assault, 4=undetermined. 7th character A=initial."
+  },
+  {
+    "id": 19,
+    "question": "A patient on warfarin (correctly prescribed) develops GI bleeding. The correct coding sequence is:",
+    "options": [
+      "T45.515A first, then K92.1",
+      "K92.1 first, then T45.515A",
+      "T45.515A only",
+      "K92.1 only"
+    ],
+    "answer": 1,
+    "explanation": "Adverse effect coding: manifestation FIRST (K92.1 = GI bleeding), then the adverse effect code (T45.515A = adverse effect of anticoagulants, initial encounter). This is a key exam rule."
+  },
+  {
+    "id": 20,
+    "question": "Hypothyroidism following thyroidectomy is coded as:",
+    "options": ["E03.9", "E03.4", "E89.0", "E00.0"],
+    "answer": 2,
+    "explanation": "E89.0 = Postprocedural hypothyroidism. Complications arising from surgical procedures use postprocedural codes (E89.x), NOT the naturally-occurring disease code (E03.x)."
+  },
+  {
+    "id": 21,
+    "question": "A patient has ESRD on hemodialysis. The correct codes are:",
+    "options": ["N18.6 only", "Z99.2 only", "N18.6 + Z99.2", "N18.5 + Z99.2"],
+    "answer": 2,
+    "explanation": "N18.6 = End stage renal disease. Z99.2 = Dependence on renal dialysis. BOTH are required when the patient has ESRD and is receiving dialysis."
+  },
+  {
+    "id": 22,
+    "question": "A patient is admitted with severe sepsis due to E. coli with acute respiratory failure. Correct sequence:",
+    "options": [
+      "A41.51, R65.20, J96.00",
+      "J96.00, A41.51, R65.20",
+      "R65.20, A41.51, J96.00",
+      "A41.51, J96.00, R65.20"
+    ],
+    "answer": 0,
+    "explanation": "Per Guideline I.C.1.d.2: infection code first (A41.51 = E. coli sepsis), then R65.20 (severe sepsis without septic shock), then organ dysfunction (J96.00 = acute respiratory failure)."
+  },
+  {
+    "id": 23,
+    "question": "The ICD-10-CM code for obstructive sleep apnea (adult) is:",
+    "options": ["G47.30", "G47.31", "G47.33", "G47.39"],
+    "answer": 2,
+    "explanation": "G47.33 = Obstructive sleep apnea (adult). G47.31 = Primary central sleep apnea; G47.30 = sleep apnea unspecified; G47.39 = other sleep apnea."
+  },
+  {
+    "id": 24,
+    "question": "Community-acquired pneumonia with no identified organism:",
+    "options": ["J18.0", "J18.1", "J18.9", "J15.9"],
+    "answer": 2,
+    "explanation": "J18.9 = Pneumonia, unspecified organism. Use this when the causative organism has NOT been identified. J18.0 = Bronchopneumonia; J18.1 = Lobar pneumonia (both are also unspecified organism)."
+  },
+  {
+    "id": 25,
+    "question": "A patient takes a prescribed medication correctly but develops drug dependence. This is coded as:",
+    "options": [
+      "Adverse effect (T code first)",
+      "Poisoning (T code first)",
+      "Dependence (F11.20)",
+      "Abuse (F11.10)"
+    ],
+    "answer": 2,
+    "explanation": "Dependence on correctly prescribed medication = F11.20 (or appropriate F1x.20 code). This is NOT an adverse effect. An adverse effect is an unexpected reaction — dependence is classified differently."
+  },
+  {
+    "id": 26,
+    "question": "Hypertensive crisis (urgency) is classified under:",
+    "options": ["I10", "I16.0", "I15", "I11"],
+    "answer": 1,
+    "explanation": "I16.0 = Hypertensive urgency. I16.1 = Hypertensive emergency. Both require an additional code for I10. Category I16 was added specifically for hypertensive crises."
+  },
+  {
+    "id": 27,
+    "question": "Atrial fibrillation, type NOT specified, is coded as:",
+    "options": ["I48.0", "I48.11", "I48.19", "I48.91"],
+    "answer": 3,
+    "explanation": "I48.91 = Unspecified atrial fibrillation. I48.0 = Paroxysmal; I48.11 = Longstanding persistent; I48.19 = Other persistent; I48.20 = Chronic. Know all AFib subtypes."
+  },
+  {
+    "id": 28,
+    "question": "Stage 3 pressure ulcer of the sacral region:",
+    "options": ["L89.153", "L89.143", "L89.163", "L89.113"],
+    "answer": 0,
+    "explanation": "L89.153 = Pressure ulcer of sacral region, Stage 3. L89.15x = sacral region. 6th character: 1=stage1, 2=stage2, 3=stage3, 4=stage4, 6=unstageable, 9=unspecified."
+  },
+  {
+    "id": 29,
+    "question": "A patient with Type 2 DM is started on insulin. In addition to E11.9, assign:",
+    "options": ["Z79.4", "Z79.84", "E11.641", "Nothing additional"],
+    "answer": 0,
+    "explanation": "Z79.4 = Long-term (current) use of insulin. Required as additional code per Guideline I.C.4.a.3 when Type 2 DM patient uses insulin, even temporarily."
+  },
+  {
+    "id": 30,
+    "question": "Gram-negative sepsis, unspecified organism, is coded as:",
+    "options": ["A41.50", "A41.89", "A41.9", "A40.9"],
+    "answer": 0,
+    "explanation": "A41.50 = Gram-negative sepsis, unspecified. When gram stain identifies Gram-negative bacteria but NO specific organism is identified, A41.50 is the appropriate code."
+  },
+  {
+    "id": 31,
+    "question": "A postoperative wound infection following hip replacement is coded as:",
+    "options": [
+      "T81.40XA + organism code",
+      "T84.50XA + organism code",
+      "T81.41XA",
+      "T81.40XA only"
+    ],
+    "answer": 0,
+    "explanation": "T81.40XA = Infection following a procedure, unspecified, initial encounter. An additional code identifies the causative organism. Both the complication and organism codes are required."
+  },
+  {
+    "id": 32,
+    "question": "The ICD-10-CM code for morbid obesity (BMI ≥40) due to excess calories is:",
+    "options": ["E66.01", "E66.09", "E66.1", "E66.9"],
+    "answer": 0,
+    "explanation": "E66.01 = Morbid (severe) obesity due to excess calories. Add Z68.4x for BMI value. E66.09 = other obesity due to excess calories; E66.1 = drug-induced obesity."
+  },
+  {
+    "id": 33,
+    "question": "A patient is admitted for palliative care. The principal diagnosis is:",
+    "options": [
+      "Z51.5",
+      "The underlying cancer code",
+      "Z76.89",
+      "The pain code"
+    ],
+    "answer": 1,
+    "explanation": "When admitted for palliative care, the UNDERLYING CONDITION (e.g., malignancy) is the principal diagnosis. Z51.5 = encounter for palliative care is coded as ADDITIONAL, not principal."
+  },
+  {
+    "id": 34,
+    "question": "ICD-10-CM code for COVID-19 (confirmed) is:",
+    "options": ["J09", "J10", "U07.1", "B34.2"],
+    "answer": 2,
+    "explanation": "U07.1 = COVID-19 (confirmed). U07.2 = COVID-19 (unconfirmed/probable). U codes were established specifically for novel/emergency conditions like SARS-CoV-2."
+  },
+  {
+    "id": 35,
+    "question": "Diverticulosis of the large intestine WITHOUT bleeding or perforation:",
+    "options": ["K57.30", "K57.32", "K57.33", "K57.90"],
+    "answer": 0,
+    "explanation": "K57.30 = Diverticulosis of large intestine without perforation or abscess without bleeding. K57.32 = with bleeding; K57.31 = diverticulitis without P/A without bleeding."
+  },
+  {
+    "id": 36,
+    "question": "Deep vein thrombosis of the right popliteal vein, acute, is coded as:",
+    "options": ["I82.4Y1", "I82.431", "I82.4Y1", "I82.491"],
+    "answer": 1,
+    "explanation": "I82.431 = Acute embolism and thrombosis of right popliteal vein. ICD-10-CM provides extensive DVT specificity by vessel name and laterality."
+  },
+  {
+    "id": 37,
+    "question": "Pulmonary embolism with acute cor pulmonale:",
+    "options": ["I26.09", "I26.90", "I26.01", "I26.99"],
+    "answer": 0,
+    "explanation": "I26.09 = Other pulmonary embolism with acute cor pulmonale. I26.90 = PE without acute cor pulmonale, unspecified. I26.01 = septic PE with acute cor pulmonale."
+  },
+  {
+    "id": 38,
+    "question": "Clostridioides difficile (C. diff) colitis, NOT specified as recurrent:",
+    "options": ["A04.7", "A04.71", "A04.72", "K52.9"],
+    "answer": 2,
+    "explanation": "A04.72 = Enterocolitis due to C. difficile, not specified as recurrent. A04.71 = recurrent. Always check documentation for recurrent vs. first-episode."
+  },
+  {
+    "id": 39,
+    "question": "Alcohol withdrawal WITH delirium (delirium tremens):",
+    "options": ["F10.231", "F10.221", "F10.232", "F10.239"],
+    "answer": 0,
+    "explanation": "F10.231 = Alcohol dependence with withdrawal delirium. F10.221 = alcohol dependence with intoxication delirium; F10.232 = dependence with withdrawal + perceptual disturbance."
+  },
+  {
+    "id": 40,
+    "question": "A patient has systolic CHF and is admitted. After workup, the physician documents 'acute on chronic systolic heart failure.' The correct code is:",
+    "options": ["I50.21", "I50.22", "I50.23", "I50.20"],
+    "answer": 2,
+    "explanation": "I50.23 = Acute on chronic systolic (congestive) heart failure — the patient had a pre-existing chronic condition that acutely worsened. This is one of the most frequently tested CHF codes."
+  },
+  {
+    "id": 41,
+    "question": "Acute pancreatitis due to alcohol use, WITHOUT necrosis or infection:",
+    "options": ["K85.30", "K85.20", "K85.10", "K85.80"],
+    "answer": 0,
+    "explanation": "K85.30 = Alcohol-induced acute pancreatitis without necrosis or infection. K85.10 = biliary; K85.20 = drug/medication-induced; K85.80 = other etiology. Alcohol = K85.3x."
+  },
+  {
+    "id": 42,
+    "question": "Benign prostatic hyperplasia WITH lower urinary tract symptoms (LUTS):",
+    "options": ["N40.0", "N40.1", "N40.2", "N40.3"],
+    "answer": 1,
+    "explanation": "N40.1 = Benign prostatic hyperplasia with lower urinary tract symptoms (LUTS), which includes urinary obstruction, hesitancy, retention. N40.0 = BPH without LUTS."
+  },
+  {
+    "id": 43,
+    "question": "NSTEMI (non-ST elevation myocardial infarction) is coded as:",
+    "options": ["I21.4", "I21.01", "I21.3", "I21.19"],
+    "answer": 0,
+    "explanation": "I21.4 = Non-ST elevation (NSTEMI) myocardial infarction. I21.01–I21.29 = STEMI codes by location. I21.4 is the only NSTEMI code regardless of location."
+  },
+  {
+    "id": 44,
+    "question": "For OUTPATIENT coding, 'rule out diabetes' documented by the physician means the coder should:",
+    "options": [
+      "Code diabetes as confirmed",
+      "Code the sign or symptom (e.g., polyuria, hyperglycemia)",
+      "Query the physician",
+      "Assign Z03.89"
+    ],
+    "answer": 1,
+    "explanation": "Outpatient guideline: uncertain diagnoses are NOT coded. Code the sign/symptom that brought the patient in. This is OPPOSITE of inpatient guidelines."
+  },
+  {
+    "id": 45,
+    "question": "A burn covering 35% BSA with 15% third-degree — the BSA code is:",
+    "options": ["T31.30", "T31.31", "T31.35", "T31.39"],
+    "answer": 1,
+    "explanation": "T31 = burns classified by % BSA. T31.31 = 30–39% total BSA, with 10–19% third-degree burns. The first digit after decimal = total BSA range, second = % third-degree."
+  },
+  {
+    "id": 46,
+    "question": "Acute pyelonephritis is coded as:",
+    "options": ["N10", "N11.0", "N11.8", "N12"],
+    "answer": 0,
+    "explanation": "N10 = Acute pyelonephritis (acute tubulo-interstitial nephritis). N11.x = Chronic tubulo-interstitial nephritis; N12 = unspecified as acute or chronic."
+  },
+  {
+    "id": 47,
+    "question": "Gestational diabetes mellitus in the third trimester, insulin controlled:",
+    "options": ["O24.410", "O24.419", "O24.434", "O24.430"],
+    "answer": 2,
+    "explanation": "O24.434 = Gestational DM in pregnancy, insulin controlled, third trimester. O24.4x0 = diet controlled; O24.4x4 = insulin controlled; O24.4x5 = oral hypoglycemic. The 5th character = trimester (1,2,3), 6th = control method."
+  },
+  {
+    "id": 48,
+    "question": "A spontaneous abortion, incomplete, with hemorrhage:",
+    "options": ["O03.1", "O03.6", "O03.4", "O03.9"],
+    "answer": 0,
+    "explanation": "O03.1 = Spontaneous abortion, incomplete, complicated by hemorrhage (delayed/excessive). O03.4 = incomplete without complication; O03.6 = complete with delayed/excessive hemorrhage."
+  },
+  {
+    "id": 49,
+    "question": "Which code is used for HIV-positive but ASYMPTOMATIC patient admitted for cholecystectomy?",
+    "options": ["B20", "Z21", "Z11.4", "Not coded"],
+    "answer": 1,
+    "explanation": "Z21 = Asymptomatic HIV infection status (HIV-positive, no symptoms, no AIDS-defining conditions). B20 = symptomatic HIV disease. Z21 is coded as additional if it affects patient management."
+  },
+  {
+    "id": 50,
+    "question": "A cerebral infarction due to thrombosis of the left middle cerebral artery:",
+    "options": ["I63.312", "I63.012", "I63.19", "I64"],
+    "answer": 0,
+    "explanation": "I63.312 = Cerebral infarction due to thrombosis of left middle cerebral artery. Laterality and specific artery are captured. I64 = stroke NOS (not specified as hemorrhage or infarction) — avoid this code."
+  },
+  {
+    "id": 51,
+    "question": "A patient has residual left-sided hemiplegia 6 months after a stroke. The codes used are:",
+    "options": [
+      "I63.x only",
+      "I69.351 + I69.354",
+      "I69.351 (dominant side hemiplegia)",
+      "I69.352 or I69.351 depending on dominant side"
+    ],
+    "answer": 3,
+    "explanation": "I69.3x = Sequelae of cerebral infarction. Hemiplegia codes distinguish dominant vs non-dominant side. I69.351 = hemiplegia/hemiparesis following CI affecting right dominant side; I69.352 = left dominant, etc."
+  },
+  {
+    "id": 52,
+    "question": "Bipolar disorder, current episode manic, severe, WITHOUT psychotic features:",
+    "options": ["F31.11", "F31.13", "F31.2", "F31.9"],
+    "answer": 1,
+    "explanation": "F31.13 = Bipolar disorder, current episode manic, severe, without psychotic features. F31.11 = mild; F31.12 = moderate; F31.2 = with psychotic features."
+  },
+  {
+    "id": 53,
+    "question": "Major depressive disorder, RECURRENT, severe, without psychotic features:",
+    "options": ["F33.2", "F33.1", "F32.2", "F33.3"],
+    "answer": 0,
+    "explanation": "F33.2 = Major depressive disorder, recurrent, severe without psychotic features. F32.x = single episode; F33.x = recurrent; F33.1 = moderate; F33.3 = severe with psychotic features."
+  },
+  {
+    "id": 54,
+    "question": "A patient with colon cancer (ascending colon) is coded as:",
+    "options": ["C18.0", "C18.2", "C18.3", "C18.9"],
+    "answer": 1,
+    "explanation": "C18.2 = Malignant neoplasm of ascending colon. C18.0 = cecum; C18.3 = hepatic flexure; C18.4 = transverse; C18.6 = descending; C18.7 = sigmoid; C18.9 = unspecified."
+  },
+  {
+    "id": 55,
+    "question": "When a patient has a PRIMARY malignancy (active) AND a personal history of a DIFFERENT resolved cancer:",
+    "options": [
+      "Code both as active malignancies",
+      "Active C code + Z85.x for the resolved cancer history",
+      "Z85.x for both",
+      "Only the current malignancy"
+    ],
+    "answer": 1,
+    "explanation": "Active malignancy = C code. Resolved/cured malignancy = Z85.x (personal history). Secondary malignancies (metastases) still present = C77-C79 codes."
+  },
+  {
+    "id": 56,
+    "question": "A patient is admitted for pathological fracture of the right femur due to metastatic breast cancer. Principal diagnosis:",
+    "options": [
+      "C50.911 – Primary breast cancer",
+      "M84.551A – Pathological fracture",
+      "C79.51 – Secondary malignant neoplasm of bone",
+      "Both C50.911 and C79.51"
+    ],
+    "answer": 2,
+    "explanation": "C79.51 = Secondary malignant neoplasm of bone (metastatic disease) is the principal diagnosis when the pathological fracture from metastatic disease is the reason for admission. M84.551A is additional."
+  },
+  {
+    "id": 57,
+    "question": "Anemia in a patient with a neoplasm: ICD-10-CM guideline states:",
+    "options": [
+      "Always sequence the neoplasm first",
+      "Always sequence the anemia first",
+      "Sequence based on the reason for admission",
+      "Sequence based on the highest DRG"
+    ],
+    "answer": 2,
+    "explanation": "Guideline I.C.2.c.1: When both a neoplasm and anemia are present, sequence based on which condition was chiefly responsible for the admission. If admitted for the anemia, sequence it first."
+  },
+  {
+    "id": 58,
+    "question": "Pressure-induced deep tissue damage (deep tissue pressure injury) of the sacral region:",
+    "options": ["L89.150", "L89.156", "L89.153", "L89.159"],
+    "answer": 1,
+    "explanation": "L89.156 = Pressure-induced deep tissue damage of sacral region. The 6th character '6' = deep tissue damage (DTI). This terminology replaced 'unstageable' for deep tissue injuries in recent updates."
+  },
+  {
+    "id": 59,
+    "question": "Old myocardial infarction (healed, >4 weeks ago, no current symptoms):",
+    "options": ["I25.2", "Z86.19", "I21.9", "Z87.39"],
+    "answer": 0,
+    "explanation": "I25.2 = Old myocardial infarction. Used when a patient has a history of MI but has no current symptoms related to it. Diagnosed incidentally by EKG changes."
+  },
+  {
+    "id": 60,
+    "question": "Sickle-cell anemia with vaso-occlusive crisis (Hb-SS disease):",
+    "options": ["D57.00", "D57.1", "D57.219", "D57.01"],
+    "answer": 0,
+    "explanation": "D57.00 = Hb-SS disease with vaso-occlusive pain (without acute chest syndrome). D57.01 = with acute chest syndrome; D57.1 = sickle-cell disease without crisis."
+  },
+  {
+    "id": 61,
+    "question": "Alcoholic hepatitis WITH ascites:",
+    "options": ["K70.11", "K70.10", "K70.31", "K70.30"],
+    "answer": 0,
+    "explanation": "K70.11 = Alcoholic hepatitis with ascites. K70.10 = without ascites; K70.30 = alcoholic cirrhosis without ascites; K70.31 = alcoholic cirrhosis with ascites."
+  },
+  {
+    "id": 62,
+    "question": "Acute appendicitis with generalized peritonitis, WITHOUT abscess:",
+    "options": ["K35.20", "K35.21", "K35.80", "K35.891"],
+    "answer": 0,
+    "explanation": "K35.20 = Acute appendicitis with generalized peritonitis, without abscess. K35.21 = with abscess; K35.80 = with other complications without abscess."
+  },
+  {
+    "id": 63,
+    "question": "A patient with cirrhosis develops hepatic encephalopathy. Which is coded as principal?",
+    "options": [
+      "K74.60 always",
+      "K72.10 always",
+      "Either, based on reason for admission",
+      "K72.11 always"
+    ],
+    "answer": 2,
+    "explanation": "Sequencing depends on the reason for admission. If admitted for hepatic encephalopathy (liver failure), K72.10/K72.11 may be principal. If admitted for cirrhosis complications, K74.60 may be principal."
+  },
+  {
+    "id": 64,
+    "question": "A patient with Type 2 DM has hypoglycemic coma. The code is:",
+    "options": ["E11.641", "E11.649", "E11.610", "E11.01"],
+    "answer": 0,
+    "explanation": "E11.641 = Type 2 DM with hypoglycemia with coma. E11.649 = with hypoglycemia without coma. If on insulin, add Z79.4. Know the distinction between with/without coma."
+  },
+  {
+    "id": 65,
+    "question": "Carbon monoxide poisoning from a faulty furnace (accidental), initial encounter:",
+    "options": ["T58.01XA", "T58.01X2A", "T58.11XA", "T58.91XA"],
+    "answer": 0,
+    "explanation": "T58.01XA = Toxic effect of carbon monoxide from utility gas, accidental (unintentional), initial encounter. 5th character '1' = accidental. 'A' 7th character = initial encounter."
+  },
+  {
+    "id": 66,
+    "question": "A patient has acute-on-chronic liver failure WITHOUT coma:",
+    "options": ["K72.10", "K72.11", "K72.00", "K72.01"],
+    "answer": 0,
+    "explanation": "K72.10 = Hepatic failure, unspecified (or acute and subacute), without coma. K72.11 = with coma. This covers acute-on-chronic hepatic failure."
+  },
+  {
+    "id": 67,
+    "question": "BMI codes (Z68.x) in ICD-10-CM are:",
+    "options": [
+      "Always principal diagnosis",
+      "Always additional codes only",
+      "Coded only when physician documents BMI",
+      "Never coded for inpatients"
+    ],
+    "answer": 1,
+    "explanation": "BMI codes (Z68.x) are ALWAYS supplementary/additional codes — never principal diagnosis. They are coded based on documented BMI values alongside obesity or other weight-related conditions."
+  },
+  {
+    "id": 68,
+    "question": "A patient has Addison's disease. The correct code is:",
+    "options": ["E27.40", "E27.1", "E27.49", "E27.3"],
+    "answer": 1,
+    "explanation": "E27.1 = Primary adrenocortical insufficiency (Addison's disease). E27.40 = other/unspecified adrenocortical insufficiency; E27.49 = other specified adrenocortical insufficiency."
+  },
+  {
+    "id": 69,
+    "question": "Ectopic pregnancy (fallopian tube) WITHOUT intrauterine pregnancy:",
+    "options": ["O00.10", "O00.11", "O00.00", "O00.01"],
+    "answer": 0,
+    "explanation": "O00.10 = Tubal pregnancy without intrauterine pregnancy. O00.11 = tubal pregnancy WITH intrauterine pregnancy (heterotopic). O00.0x = abdominal pregnancy."
+  },
+  {
+    "id": 70,
+    "question": "Transient ischemic attack (TIA), unspecified:",
+    "options": ["G45.9", "I63.9", "I65.9", "G45.3"],
+    "answer": 0,
+    "explanation": "G45.9 = Transient cerebral ischemic attack, unspecified. G45 codes cover TIAs. I63.x = cerebral infarction (actual completed infarct, not TIA). Never use I64 (stroke NOS)."
+  },
+  {
+    "id": 71,
+    "question": "Obstructive sleep apnea with morbid obesity: codes assigned are:",
+    "options": [
+      "G47.33 only",
+      "E66.01 + G47.33",
+      "G47.33 + E66.01",
+      "E66.01 only"
+    ],
+    "answer": 1,
+    "explanation": "E66.01 (morbid obesity) is sequenced based on reason for admission, with G47.33 (obstructive sleep apnea) as additional, or vice versa. Both conditions are coded. The sleep study context often makes G47.33 principal."
+  },
+  {
+    "id": 72,
+    "question": "Acute respiratory failure with hypoxia:",
+    "options": ["J96.01", "J96.00", "J96.02", "J96.11"],
+    "answer": 0,
+    "explanation": "J96.01 = Acute respiratory failure with hypoxia. J96.00 = Acute respiratory failure, unspecified whether with hypoxia or hypercapnia; J96.02 = with hypercapnia; J96.11 = chronic with hypoxia."
+  },
+  {
+    "id": 73,
+    "question": "A patient has iron deficiency anemia due to chronic blood loss from a GI ulcer. Correct sequence:",
+    "options": [
+      "D50.0 + K25.4",
+      "K25.4 + D50.0",
+      "D50.9 + K25.0",
+      "K57.30 + D50.0"
+    ],
+    "answer": 0,
+    "explanation": "D50.0 = Iron deficiency anemia secondary to blood loss (chronic). K25.4 = Chronic or unspecified gastric ulcer with hemorrhage. Sequence based on the reason for admission."
+  },
+  {
+    "id": 74,
+    "question": "Postpartum depression occurring 5 weeks after delivery:",
+    "options": ["F32.9", "O90.6", "F53.0", "O99.340"],
+    "answer": 2,
+    "explanation": "F53.0 = Postpartum depression (within 42 days = 6 weeks postpartum). O90.6 = mild postpartum mood disturbance (baby blues). F53.0 captures clinical postpartum depression."
+  },
+  {
+    "id": 75,
+    "question": "Rheumatoid arthritis with rheumatoid factor, multiple sites:",
+    "options": ["M05.79", "M06.09", "M05.09", "M06.9"],
+    "answer": 0,
+    "explanation": "M05.79 = Rheumatoid arthritis with rheumatoid factor, multiple sites. M05.x = seropositive RA; M06.0x = seronegative RA. Laterality and site specificity are required."
+  },
+  {
+    "id": 76,
+    "question": "Cellulitis of the left lower leg due to Group A Streptococcus:",
+    "options": [
+      "L03.116 only",
+      "L03.116 + B95.0",
+      "L03.116 + B95.1",
+      "L03.115 + B95.0"
+    ],
+    "answer": 1,
+    "explanation": "L03.116 = Cellulitis of left lower limb + B95.0 = Streptococcus, Group A, as cause of diseases classified elsewhere. B95 codes are supplementary organism codes — never principal."
+  },
+  {
+    "id": 77,
+    "question": "A patient is admitted with sepsis from a UTI caused by E. coli. The correct sequence is:",
+    "options": [
+      "N39.0 + A41.51",
+      "A41.51 + N39.0",
+      "A41.9 + N39.0 + B96.20",
+      "N39.0 + A41.9"
+    ],
+    "answer": 1,
+    "explanation": "A41.51 = Sepsis due to Escherichia coli (principal — the sepsis is the reason for admission). N39.0 = UTI (source of sepsis, additional). The organism is captured in A41.51."
+  },
+  {
+    "id": 78,
+    "question": "A patient with known COPD develops acute bronchitis. The principal diagnosis should be:",
+    "options": ["J20.9", "J44.0", "J44.1", "J44.9"],
+    "answer": 1,
+    "explanation": "J44.0 = COPD with acute lower respiratory infection. This combination code captures both the COPD and the triggering infection. An additional code (J20.x) identifies the acute bronchitis type."
+  },
+  {
+    "id": 79,
+    "question": "Rhabdomyolysis due to statin drug (correctly taken) — the coding sequence:",
+    "options": [
+      "T46.6X5A + M62.82",
+      "M62.82 + T46.6X5A",
+      "M62.82 only",
+      "T46.6X5A only"
+    ],
+    "answer": 1,
+    "explanation": "Adverse effect: manifestation FIRST (M62.82 = rhabdomyolysis), then adverse effect code (T46.6X5A = adverse effect of other antihyperlipidemic drugs = statins, initial encounter)."
+  },
+  {
+    "id": 80,
+    "question": "Drug-induced aplastic anemia from chemotherapy (correctly prescribed):",
+    "options": ["D61.1 only", "D61.1 + T45.1X5A", "T45.1X5A + D61.1", "D60.9"],
+    "answer": 1,
+    "explanation": "Adverse effect: D61.1 (drug-induced aplastic anemia) FIRST as manifestation, then T45.1X5A (adverse effect of antineoplastic/immunosuppressive drugs) as the adverse effect code."
+  },
+  {
+    "id": 81,
+    "question": "Secondary polycythemia due to COPD (chronic hypoxia). Correct sequence:",
+    "options": [
+      "D75.1 + J44.9",
+      "J44.9 + D75.1",
+      "D75.1 only",
+      "J44.1 + D75.1"
+    ],
+    "answer": 0,
+    "explanation": "When admitted for polycythemia management, D75.1 (secondary polycythemia) is principal. J44.9 (COPD) is additional as the underlying cause. Sequence based on reason for admission."
+  },
+  {
+    "id": 82,
+    "question": "Asymptomatic bacteremia (bacteria in blood, no systemic response) is coded as:",
+    "options": ["A41.9", "R78.81", "A49.9", "B99.9"],
+    "answer": 1,
+    "explanation": "R78.81 = Bacteremia. Bacteremia ≠ Sepsis. A41.9 = sepsis (systemic response). Never code R78.81 and A41.x together — they represent different conditions."
+  },
+  {
+    "id": 83,
+    "question": "A patient has Parkinson's disease with dementia. ICD-10-CM coding:",
+    "options": [
+      "G20 only",
+      "G31.83 only",
+      "G20 + G31.83 + F02.80",
+      "G20 + F02.80"
+    ],
+    "answer": 2,
+    "explanation": "G20 = Parkinson's disease + G31.83 = Dementia with Lewy bodies (if that's the type) OR code first the dementia type. For PD with dementia: G20 + F02.80 (dementia in other diseases classified elsewhere, without behavioral disturbance)."
+  },
+  {
+    "id": 84,
+    "question": "Choledocholithiasis with acute cholangitis and obstruction:",
+    "options": ["K80.31", "K80.33", "K80.37", "K80.41"],
+    "answer": 2,
+    "explanation": "K80.37 = Calculus of bile duct with acute cholangitis with obstruction. ICD-10-CM has highly specific codes for stone location + complication (cholangitis) + obstruction status."
+  },
+  {
+    "id": 85,
+    "question": "A displaced femoral neck fracture, right side, initial encounter (closed):",
+    "options": ["S72.001A", "S72.011A", "S72.001D", "S72.091A"],
+    "answer": 0,
+    "explanation": "S72.001A = Fracture of unspecified part of neck of right femur, initial encounter for closed fracture. 7th character 'A' = initial encounter. 'D' = subsequent encounter. 'S' = sequela."
+  },
+  {
+    "id": 86,
+    "question": "What is the ICD-10-CM code for acute pelvic inflammatory disease due to gonorrhea?",
+    "options": ["N73.0", "A54.24", "A54.24 + N73.0", "N73.9"],
+    "answer": 1,
+    "explanation": "A54.24 = Gonococcal female pelvic inflammatory disease. When PID is caused by a specific organism (gonorrhea), the organism-specific code captures both infection and site."
+  },
+  {
+    "id": 87,
+    "question": "A patient has systemic lupus erythematosus (SLE) with lupus nephritis. Code sequence:",
+    "options": ["N08 + M32.14", "M32.14 + N08", "M32.9 + N08", "M32.14 only"],
+    "answer": 1,
+    "explanation": "Etiology/manifestation convention: M32.14 (glomerular disease in SLE) is the underlying disease coded FIRST. N08 (glomerular disorders in diseases classified elsewhere) is the manifestation code."
+  },
+  {
+    "id": 88,
+    "question": "Delirium superimposed on dementia is coded as:",
+    "options": ["F05 + dementia code", "F10.921", "F41.9", "G31.09"],
+    "answer": 0,
+    "explanation": "F05 = Delirium due to known physiological condition. When superimposed on dementia: F05 + the underlying dementia code (F01.x, F02.x, or G30.x). Both conditions are coded."
+  },
+  {
+    "id": 89,
+    "question": "Crohn's disease of the large intestine WITH fistula:",
+    "options": ["K50.013", "K50.113", "K50.813", "K63.2"],
+    "answer": 1,
+    "explanation": "K50.113 = Crohn's disease of large intestine with fistula. K50.013 = small intestine with fistula; K50.813 = both small and large intestine with fistula. Site specificity is required."
+  },
+  {
+    "id": 90,
+    "question": "Non-ST elevation MI (NSTEMI) occurring 3 weeks after an initial STEMI:",
+    "options": ["I21.4", "I22.2", "I21.4 + I22.2", "I25.2"],
+    "answer": 1,
+    "explanation": "I22.2 = Subsequent non-ST elevation (NSTEMI) MI (occurring within 4 weeks of initial MI). Both initial and subsequent MI codes may be used together if the initial MI is still being treated."
+  },
+  {
+    "id": 91,
+    "question": "Pressure ulcer stage 2, left buttock:",
+    "options": ["L89.322", "L89.312", "L89.302", "L89.332"],
+    "answer": 0,
+    "explanation": "L89.322 = Pressure ulcer of left buttock, Stage 2. L89.31x = right buttock; L89.32x = left buttock. 6th character: 1=stage1, 2=stage2, 3=stage3, 4=stage4."
+  },
+  {
+    "id": 92,
+    "question": "Anorexia nervosa, binge eating/purging type:",
+    "options": ["F50.00", "F50.01", "F50.02", "F50.9"],
+    "answer": 2,
+    "explanation": "F50.02 = Anorexia nervosa, binge eating/purging type. F50.01 = restricting type; F50.00 = unspecified type. The CCS exam tests specificity in psychiatric coding."
+  },
+  {
+    "id": 93,
+    "question": "A patient has ESRD on peritoneal dialysis who develops peritonitis. Codes include:",
+    "options": [
+      "N18.6 + T85.71xA + Z99.2",
+      "T85.71xA only",
+      "N18.6 + Z99.2 only",
+      "N18.6 + T85.71xA + Z99.2"
+    ],
+    "answer": 3,
+    "explanation": "All three codes are required: N18.6 (ESRD) + T85.71xA (infection of peritoneal dialysis catheter, initial encounter) + Z99.2 (dependence on peritoneal dialysis)."
+  },
+  {
+    "id": 94,
+    "question": "Sciatica of the right side:",
+    "options": ["M54.3", "M54.40", "M54.41", "M54.42"],
+    "answer": 2,
+    "explanation": "M54.41 = Sciatica, right side. M54.42 = left; M54.40 = unspecified; M54.3 = sciatica (unspecified side in some versions). Laterality is required."
+  },
+  {
+    "id": 95,
+    "question": "Type 2 diabetes with CKD Stage 3:",
+    "options": [
+      "E11.65 + N18.3",
+      "E11.22 + N18.3",
+      "E11.29 + N18.3",
+      "E11.649 + N18.3"
+    ],
+    "answer": 1,
+    "explanation": "E11.22 = Type 2 DM with diabetic chronic kidney disease, Stage 3. An additional code N18.3 is assigned to identify the stage. The DM code captures the relationship between DM and CKD."
+  },
+  {
+    "id": 96,
+    "question": "'Code also' in ICD-10-CM means:",
+    "options": [
+      "Mandatory — always assign this additional code",
+      "Assign the additional code IF applicable and documented",
+      "Optional at coder's discretion",
+      "The additional code must be principal diagnosis"
+    ],
+    "answer": 1,
+    "explanation": "'Code also' = assign an additional code IF the condition is present and documented. It is applicable ONLY when the additional condition affects the patient's care during the encounter."
+  },
+  {
+    "id": 97,
+    "question": "Acute kidney injury (AKI) is coded as:",
+    "options": ["N17.9", "N18.9", "N19", "N28.9"],
+    "answer": 0,
+    "explanation": "N17.9 = Acute kidney failure, unspecified. N17.0 = with tubular necrosis; N17.1 = with acute cortical necrosis; N18.x = CKD (chronic); N19 = unspecified renal failure."
+  }
+]
